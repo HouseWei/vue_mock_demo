@@ -1,0 +1,11 @@
+{
+    'tableData|1-30': [{
+    'id|+1': 1, //主键加1
+    'model|+1': ['J43-TC','X1766-TC','X1766-DH','X1781-DH'],//机种
+    'process|+1': ['CNC3-7','打光','阳极','组装'],//制程
+    output: '@natural(0,1000)', //0-1000的自然数
+    date: '@date()', //日期
+    operator: '@cname()', //维护人员
+    opTime: "@datetime('yyyy-MM-dd HH:mm:ss')", //维护时间
+  }]
+}
